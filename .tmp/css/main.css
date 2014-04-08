@@ -494,8 +494,8 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_global\.scss}line{font-family:\00003348}}
 body {
-  background: transparent;
-  color: white;
+  background: white;
+  color: #222222;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -4924,7 +4924,7 @@ form .row textarea.columns {
 /* Label Styles */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_forms\.scss}line{font-family:\00003319}}
 label {
-  font-size: 0.77778rem;
+  font-size: 0.88889rem;
   color: #4d4d4d;
   cursor: pointer;
   display: block;
@@ -5004,9 +5004,9 @@ select::-ms-expand {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
-  font-size: 0.77778rem;
-  height: 2.05556rem;
-  line-height: 2.05556rem;
+  font-size: 0.88889rem;
+  height: 2.16667rem;
+  line-height: 2.16667rem;
 }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
@@ -7117,7 +7117,7 @@ table thead tr td,
 table tfoot tr th,
 table tfoot tr td {
   padding: 0.44444rem 0.55556rem 0.55556rem;
-  font-size: 0.77778rem;
+  font-size: 1.11111rem;
   font-weight: bold;
   color: #222222;
   text-align: left;
@@ -7126,7 +7126,7 @@ table tfoot tr td {
 table tr th,
 table tr td {
   padding: 0.5rem 0.55556rem;
-  font-size: 0.77778rem;
+  font-size: 1rem;
   color: #222222;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_tables\.scss}line{font-family:\0000380}}
@@ -7178,7 +7178,7 @@ table tfoot tr td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_tabs\.scss}line{font-family:\0000345}}
 .tabs dd.active a {
-  background: white;
+  background: #32499c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_tabs\.scss}line{font-family:\0000349}}
 .tabs.radius dd:first-child a {
@@ -7410,7 +7410,7 @@ meta.foundation-mq-topbar {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003108}}
 .contain-to-grid {
   width: 100%;
-  background: #47505d;
+  background: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003112}}
 .contain-to-grid .top-bar {
@@ -7450,7 +7450,7 @@ meta.foundation-mq-topbar {
   height: 65px;
   line-height: 65px;
   position: relative;
-  background: #47505d;
+  background: white;
   margin-bottom: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003151}}
@@ -7501,7 +7501,7 @@ meta.foundation-mq-topbar {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003188}}
 .top-bar .name h1 a {
   font-weight: normal;
-  color: white;
+  color: #32499c;
   width: 50%;
   display: block;
   padding: 0 21.66667px;
@@ -7514,7 +7514,7 @@ meta.foundation-mq-topbar {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003204}}
 .top-bar .toggle-topbar a {
-  color: white;
+  color: #32499c;
   text-transform: uppercase;
   font-size: 0.72222rem;
   font-weight: bold;
@@ -7559,7 +7559,7 @@ meta.foundation-mq-topbar {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003261}}
 .top-bar.expanded .title-area {
-  background: #47505d;
+  background: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003264}}
 .top-bar.expanded .toggle-topbar a {
@@ -7585,14 +7585,14 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #47505d;
+  background: white;
   font-size: 18px;
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003301}}
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #24282e;
+  border-top: solid 1px gray;
   clear: both;
   height: 1px;
   width: 100%;
@@ -7601,19 +7601,19 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: white;
+  color: #32499c;
   padding: 12px 0 12px 0;
   padding-left: 21.66667px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 0.72222rem;
+  font-size: 1.22222rem;
   font-weight: normal;
   text-transform: none;
-  background: #47505d;
+  background: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003321}}
 .top-bar-section ul li > a.button {
   background: #008cba;
-  font-size: 0.72222rem;
+  font-size: 1.22222rem;
   padding-right: 21.66667px;
   padding-left: 21.66667px;
 }
@@ -7647,8 +7647,8 @@ meta.foundation-mq-topbar {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003352}}
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background: #f3f3f3;
-  color: #333333;
+  background: #4d4744;
+  color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003359}}
 .top-bar-section ul li.active > a {
@@ -7735,7 +7735,7 @@ meta.foundation-mq-topbar {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003421}}
 .top-bar-section .dropdown li.title h5 a {
-  color: white;
+  color: #32499c;
   line-height: 32.5px;
   display: block;
 }
@@ -7765,7 +7765,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003447}}
   .top-bar {
-    background: #47505d;
+    background: white;
     *zoom: 1;
     overflow: visible;
   }
@@ -7799,7 +7799,7 @@ meta.foundation-mq-topbar {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003464}}
   .top-bar.expanded {
-    background: #47505d;
+    background: white;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003467}}
@@ -7832,18 +7832,18 @@ meta.foundation-mq-topbar {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003490}}
   .top-bar-section li.hover > a:not(.button) {
-    background: #f3f3f3;
-    color: #333333;
+    background: #4d4744;
+    color: white;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003496}}
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 21.66667px;
     line-height: 65px;
-    background: #47505d;
+    background: white;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003500}}
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #f3f3f3;
+    background: #4d4744;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003504}}
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -7913,11 +7913,11 @@ meta.foundation-mq-topbar {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003563}}
   .top-bar-section .dropdown li a {
-    color: #333333;
+    color: #32499c;
     line-height: 1;
     white-space: nowrap;
     padding: 12px 21.66667px;
-    background: white;
+    background: #333333;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003571}}
   .top-bar-section .dropdown li label {
@@ -7933,14 +7933,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #5a6677;
+    border-right: solid 1px white;
     clear: none;
     height: 65px;
     width: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003594}}
   .top-bar-section .has-form {
-    background: #47505d;
+    background: white;
     padding: 0 21.66667px;
     height: 65px;
   }
@@ -7965,8 +7965,8 @@ meta.foundation-mq-topbar {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003624}}
   .no-js .top-bar-section ul li:hover > a {
-    background: #f3f3f3;
-    color: #333333;
+    background: #4d4744;
+    color: white;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003630}}
   .no-js .top-bar-section ul li:active > a {
@@ -8513,7 +8513,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: white;
+  color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -8522,7 +8522,7 @@ h1, h2, h3, h4, h5, h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003327}}
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: white;
+  color: #6f6f6f;
   line-height: 0;
 }
 
@@ -8559,7 +8559,7 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003341}}
 .subheader {
   line-height: 1.4;
-  color: white;
+  color: #6f6f6f;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -8690,7 +8690,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: white;
+  color: #222222;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -8711,7 +8711,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.72222rem;
-  color: white;
+  color: #555555;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003466}}
 blockquote cite:before {
@@ -8720,14 +8720,14 @@ blockquote cite:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003471}}
 blockquote cite a,
 blockquote cite a:visited {
-  color: white;
+  color: #555555;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_bower_components\/foundation\/scss\/foundation\/components\/_type\.scss}line{font-family:\00003477}}
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: white;
+  color: #6f6f6f;
 }
 
 /* Microformats */
@@ -9863,11 +9863,6 @@ html, body {
   height: 120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\000038}}
-#root {
-  background: radial-gradient(#47505d, #505a68) no-repeat;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000314}}
 .top-bar {
   padding-top: 7px;
@@ -9896,7 +9891,8 @@ html, body {
   border-bottom: #EBF2F6 1px solid;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000327}}
+/*Blog styles*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000328}}
 .post p {
   font-family: 'Noto Serif', serif;
   font-size: 1.5rem;
@@ -9905,140 +9901,83 @@ html, body {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000331}}
 .post-meta {
   color: #9EABB3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000332}}
 .post-header h1 {
   font-weight: bold;
   color: #3A4145;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000332}}
-.product {
-  border-bottom: solid 1px #333;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000335}}
 #footer {
-  background: #47505D;
+  background: #4D4744;
   padding: 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000336}}
 #footer, #footer a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000337}}
 #footer h4 {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000338}}
 address {
   font-style: normal;
   line-height: 1.35;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000340}}
 .zoomed {
   border: solid 1px #333;
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000341}}
 .bold {
   font-weight: bold;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000342}}
+.strike {
+  text-decoration: line-through;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000344}}
 .empty {
   height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000345}}
 .whitespace {
   height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000344}}
-.pricing-table {
-  border: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000345}}
-#cta {
-  height: 480px;
-  padding-top: 30px;
-  color: #fff;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000346}}
-#cta h1, #cta h3 {
-  color: #fff;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000347}}
-.buy {
-  height: 100% !important;
+#explanation {
+  background: #4D4744;
+  color: #fff;
+  padding: 20px 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000348}}
-#action {
-  margin-top: 10%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000349}}
-#action a {
-  font-size: 3em;
+#explanation h1 {
+  color: #fff;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000350}}
-#status {
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000351}}
-.logo > div {
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000352}}
-#main {
-  color: #fff;
-  padding-bottom: 50px;
-  height: auto;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000353}}
-#main h1, #main h3 {
+.tabs dd.active a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000354}}
 .double {
   font-size: 2.4em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000356}}
-.questions a, .questions h1 {
-  color: #222;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000357}}
-#video, #contact, .light {
-  background: #DEDEDE;
-  padding: 30px 0;
-  height: auto;
-  color: #222;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mikasner\/HTMLProjects\/vatapi\/vatapi-web\/app\/_scss\/main\.scss}line{font-family:\0000358}}
-label small {
-  color: #fff;
 }

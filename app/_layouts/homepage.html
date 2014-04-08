@@ -8,9 +8,10 @@
 
     <!-- build:css({app,.tmp}) /css/main.css -->
     <!-- Custom CSS -->
+
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
-
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
     <link rel="shortcut icon" href="/favicon.ico" />
 </head>
 <body>
@@ -44,16 +45,20 @@
 
 
 
-
+<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
 <!-- build:js(app) /js/scripts.js -->
 <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/_bower_components/foundation/js/foundation.min.js"></script>
+
+<script src="/js/sha1.js"></script>
+<script src="/js/pbkdf2.js"></script>
+<script src="/js/countries.js"></script>
 <script src="/js/main.js"></script>
 <!-- endbuild -->
 
 <script >
-    var user = "support";
-    var host = "infolution.biz";
+    var user = "info";
+    var host = "vatapi.co";
     var link = user + "@" + host;
 
     $( document ).ready(function() {
@@ -64,7 +69,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-32930456-4', 'speedimport.co');
+    ga('create', 'UA-32930456-5', 'vatapi.co');
     ga('send', 'pageview');
 
 </script>

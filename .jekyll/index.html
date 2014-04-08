@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Speed Import</title>
+    <title>VAT API</title>
     <meta name="viewport" content="width=device-width">
 
     <!-- build:css({app,.tmp}) /css/main.css -->
     <!-- Custom CSS -->
+
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
-
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
     <link rel="shortcut icon" href="/favicon.ico" />
 </head>
 <body>
@@ -19,19 +20,22 @@
     <nav class="top-bar" data-topbar>
 
         <ul class="title-area">
-            <li class="name"><a href="/"><img src="/img/speedimport_logo_clean.png"/></a></li>
+            <li class="name"><a href="/"><img src="/img/vatapi-logo200.png"/></a></li>
 
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
         <section class="top-bar-section">
             <ul class="left">
-                <li>OpenERP import tool that's <strong>FAST</strong></li>
-
+                <li><a href="/about/">About</a></li>
+                <li><a href="/api/">API</a></li>
+                <li><a href="/pricing/">Pricing</a></li>
+                <li><a href="/blog/">Blog</a></li>
 
             </ul>
             <ul class="right">
-
+                <li><a id="signupMenu" href="/signup/">Sign up</a></li>
+                <li><a id="loginMenu" href="/login/">Login</a></li>
             </ul>
         </section>
     </nav>
@@ -40,88 +44,38 @@
     <div id="container">
 
 
-                <div id="cta" class="contain-to-grid">
+                <div class="contain-to-grid">
+    <div class="row">
+        <div class="large-5 column">
+            <img src="/img/monitor.jpg" alt="monitor" />
+        </div>
+        <div class="large-7 column">
+            <h1>You sell your products to EU customers</h1>
+            <p>Did you know you should collect taxes for your products based on customer country.</p>
+            <h2>28 countries. 28 tax rates.</h2>
+            <h2>We keep track of your taxes</h2>
+            <a href="/help/" class="button bold">More information</a>
+        </div>
+    </div>
+</div>
+<div id="explanation" class="contain-to-grid">
     <div class="row">
         <div class="large-6 column">
-            <h1>Would you like</h1>
-
-            <h1>import into OpenERP</h1>
-
-            <div class="row">
-                <div class="large-4 column ">
-                    <ul class="pricing-table">
-                        <li class="title">Partners</li>
-                        <li class="price">2686</li>
-                    </ul>
-                </div>
-                <div class="large-4 column ">
-                    <ul class="pricing-table">
-                        <li class="title">Categories</li>
-                        <li class="price">136</li>
-                    </ul>
-                </div>
-                <div class="large-4 column end ">
-                    <ul class="pricing-table">
-                        <li class="title">Products</li>
-                        <li class="price">16758</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="large-12 column ">
-                    <h1 class="bold">in just <span class="double">11</span> seconds</h1>
-
-                    <h3>instead of 2+ hours</h3>
-
-                </div>
-            </div>
+            <h1>VAT on e-Services</h1>
+            <p>E-services supplied by non-EU businesses to private individuals in the EU i.e. <strong>business to consumer</strong> (B2C), they are taxed in the country where the <strong>customer resides</strong>.</p>
         </div>
-        <div id="action" class="large-4 column ">
-            <div class="row">
-                <div class="large-12 column ">
-                    <a href="/download/" class="button bold">Download</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="large-12 column ">
-                    For free. No credit card needed.
-                </div>
-            </div>
-
-        </div>
-
+        <div class="large-6 column">
+            <h1>What are e-Services</h1>
+            <ul>
+                <li>supply of websites or web-hosting services</li>
+                <li>downloaded software</li>
+                <li>downloaded images, text or information</li>
+                <li>digitised books</li>
+                <li>downloaded music, films or games</li>
+                <li>electronic auctions</li>
+                <li>internet service packages</li>
+            </ul> </div>
     </div>
-
-</div>
-<div id="video" class="contain-to-grid">
-    <div class="row">
-        <div class="flex-video">
-            <iframe width="853" height="480" src="//www.youtube.com/embed/Y32S65z-iLk?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    </div>
-<div class="row">
-    <h1>How is that possible</h1>
-
-    <div class="large-6 column ">
-        <p>Speed Import stripped down <strong>the unneeded</strong></p>
-        <ul class="no-bullet">
-            <li>ORM</li>
-            <li>Python</li>
-            <li>WSGI server</li>
-        </ul>
-    </div>
-    <div class="large-6 column ">
-        <p>It uses only few <strong>powerful</strong> tools</p>
-        <ul class="no-bullet">
-            <li>AWK</li>
-            <li>Psql</li>
-        </ul>
-    </div>
-</div>
-<div class="row">
-    <a href="/help/" class="button bold">Click for User guide</a>
-
 </div>
 
 
@@ -147,16 +101,20 @@
 
 
 
-
+<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
 <!-- build:js(app) /js/scripts.js -->
 <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/_bower_components/foundation/js/foundation.min.js"></script>
+
+<script src="/js/sha1.js"></script>
+<script src="/js/pbkdf2.js"></script>
+<script src="/js/countries.js"></script>
 <script src="/js/main.js"></script>
 <!-- endbuild -->
 
 <script >
-    var user = "support";
-    var host = "infolution.biz";
+    var user = "info";
+    var host = "vatapi.co";
     var link = user + "@" + host;
 
     $( document ).ready(function() {
@@ -167,7 +125,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-32930456-4', 'speedimport.co');
+    ga('create', 'UA-32930456-5', 'vatapi.co');
     ga('send', 'pageview');
 
 </script>
