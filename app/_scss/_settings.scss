@@ -157,9 +157,9 @@
 // $paragraph-text-rendering: optimizeLegibility;
 
 // We use these to style <code> tags
-// $code-color: scale-color($alert-color, $lightness: -27%);
-// $code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
-// $code-font-weight: bold;
+ $code-color: inherit;
+ $code-font-family: inherit;
+ $code-font-weight: inherit;
 
 // We use these to style anchors
 // $anchor-text-decoration: none;
@@ -1131,7 +1131,7 @@
 
 // Height and margin
  $topbar-height: 65px;
-// $topbar-margin-bottom: 0;
+ $topbar-margin-bottom: 35px;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
